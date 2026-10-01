@@ -3,47 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>SpongeBob Characters</title>
   </head>
-  <body>
-    <header>
-      <img
-        src="https://upload.wikimedia.org/wikipedia/en/thumb/4/47/SpongeBob_SquarePants_logo.svg/640px-SpongeBob_SquarePants_logo.svg.png"
-        alt="SpongeBob logo"
-        width="200"
-      />
+  <body class="characters-page">
+    <section class="highlight">
+      <p>
+        This page is about the characters in the SpongeBob SquarePants show.
+      </p>
+    </section>
 
-      <nav>
+    <header>
+      <nav class="site-nav" aria-label="Main navigation">
         <a href="Spongebob.html">Home</a>
+        <a href="characters.html">Characters</a>
         <a href="#main-characters">Main Characters</a>
         <a href="#supporting-characters">Supporting Characters</a>
       </nav>
     </header>
 
     <main>
-      <section id="main-characters">
-        <h1>SpongeBob Characters</h1>
-        <p>These are some of the most important characters in Bikini Bottom.</p>
-        <ul>
-          <li>SpongeBob SquarePants</li>
-          <li>Patrick Star</li>
-          <li>Sandy Cheeks</li>
-          <li>Squidward Tentacles</li>
-          <li>Mr. Krabs</li>
-        </ul>
-      </section>
+      <h1>SpongeBob Characters</h1>
+      <p>Meet the familiar faces who make Bikini Bottom feel like home.</p>
+      <div class="character-grid">
+        <section id="main-characters" class="card character-card">
+          <h2>The Best Friends</h2>
+          <p>Always ready for a new adventure.</p>
+          <ul>
+            <li>SpongeBob SquarePants</li>
+            <li>Patrick Star</li>
+            <li>Sandy Cheeks</li>
+          </ul>
+        </section>
 
-      <section id="supporting-characters">
-        <h2>Supporting Characters</h2>
-        <p>These characters help make the show more fun and interesting.</p>
-        <ul>
-          <li>Plankton</li>
-          <li>Gary the Snail</li>
-          <li>Mrs. Puff</li>
-          <li>Pearl Krabs</li>
-          <li>Mermaid Man</li>
-        </ul>
-      </section>
+        <section class="card character-card">
+          <h2>The Neighbors</h2>
+          <p>Life on Conch Street is never quiet.</p>
+          <ul>
+            <li>Squidward Tentacles</li>
+            <li>Gary the Snail</li>
+            <li>Mr. Krabs</li>
+          </ul>
+        </section>
+
+        <section id="supporting-characters" class="card character-card">
+          <h2>Supporting Characters</h2>
+          <p>More familiar faces from around town.</p>
+          <ul>
+            <li>Plankton</li>
+            <li>Mrs. Puff</li>
+            <li>Pearl Krabs</li>
+            <li>Mermaid Man</li>
+          </ul>
+        </section>
+      </div>
     </main>
 
     <footer>
