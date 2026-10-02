@@ -11,11 +11,11 @@ body {
 }
 
 .characters-page {
-    background-color: #cceaf0;
+    background: linear-gradient(to bottom, #e1f4de, #cceaf0);
 }
 
 .home-page {
-    background-color: #e1f4de;
+    background: linear-gradient(to bottom, #e1f4de, #cceaf0);
 }
 
 h1,
@@ -68,7 +68,6 @@ h2 {
     border-radius: 6px;
     padding: 16px;
     margin: 16px 0;
-    box-shadow: 4px 4px 0 #75b7a8;
 }
 
 .home-page .card {
