@@ -18,6 +18,10 @@ body {
     background: linear-gradient(to bottom, #e1f4de, #cceaf0);
 }
 
+.weather-page {
+    background: linear-gradient(to bottom, #e1f4de, #cceaf0);
+}
+
 h1,
 h2 {
     color: #124e59;
@@ -72,6 +76,47 @@ h2 {
 
 .home-page .card {
     max-width: 760px;
+}
+
+.weather-card {
+    max-width: 560px;
+}
+
+.weather-card label,
+.weather-card input,
+.weather-card button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.weather-card input {
+    box-sizing: border-box;
+    max-width: 100%;
+    padding: 8px;
+}
+
+.weather-card button {
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #12616a;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font: inherit;
+    font-weight: bold;
+}
+
+.weather-card button:hover,
+.weather-card button:focus-visible {
+    background-color: #a74332;
+}
+
+#result {
+    min-height: 24px;
+}
+
+.error {
+    color: #a12620;
 }
 
 .sponge-image {

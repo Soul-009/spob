@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>What Should I Wear?</title>
+  </head>
+  <body class="weather-page">
+    <header class="site-header">
+      <h1>What Should I Wear?</h1>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="Spongebob.html">Home</a>
+        <a href="characters.html">Characters</a>
+        <a href="index.html" aria-current="page">What to Wear</a>
+      </nav>
+    </header>
+
+    <main class="card weather-card">
+      <h2>Dress for the weather</h2>
+      <p>Enter the temperature outside and get a clothing suggestion.</p>
+
+      <label for="temperature">Temperature in Fahrenheit:</label>
+      <input
+        id="temperature"
+        type="number"
+        step="any"
+        placeholder="Enter temperature"
+      />
+      <button id="checkButton" type="button">Check</button>
+      <p id="result" aria-live="polite"></p>
+    </main>
+  </body>
+</html>
